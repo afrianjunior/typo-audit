@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "declarationDir": "dist/types",
+    "declaration": true,
+    "target": "es6",
+    "module": "esnext",
+    "strict": true
+  },
+  "include": ["src/**/*"],
+  "lib": [
+    "es2016",
+    "dom"
+  ]
+}
