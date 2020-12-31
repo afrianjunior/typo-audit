@@ -1,6 +1,13 @@
 # Typo Checker
 
-Typ
+[WIP] A simple library to check fault your text, currently support only Bahasa Indonesia
+
+## Road-map
+
+* [ ] Unit Test
+* [ ] Documentation
+* [ ] HTML input and output
+* [ ] HTTP cache
 
 ## License
 
