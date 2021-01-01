@@ -2,14 +2,14 @@ import { getWords } from './api'
 import Search from './search'
 
 interface TypoAuditPrototype {
-  analize: (sentence: string) => any
+  analyze: (sentence: string) => any
 }
 
 async function GetTypoAudit (): Promise<TypoAuditPrototype> {
   const words = await getWords()
   const searchInstance = Search<string>(words)
 
-  function analize (sentence: string) {
+  function analyze (sentence: string) {
     const collectiveWords: string[] = sentence
       .replace(/[!%&'()*+./;<=>?\\,/:#@\t\r\n"\[\]_\u007B-\u00BF-]/g, '')
       .split(' ')
@@ -41,7 +41,7 @@ async function GetTypoAudit (): Promise<TypoAuditPrototype> {
   }
 
   return {
-    analize
+    analyze
   }
 }
 
