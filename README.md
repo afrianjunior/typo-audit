@@ -4,7 +4,7 @@
 
 ## Road-map
 
-* [ ] Unit Test
+* [X] Unit Test
 * [ ] Documentation
 * [ ] HTML input and output
 * [ ] HTTP cache
